@@ -1,21 +1,21 @@
 {
-  "name": "projects",
+  "name": "web-app-gitaction",
   "version": "1.0.0",
-  "description": "This is my first DevOps project.",
+  "description": "Minimal Node.js service demonstrating a tested, containerized GitHub Actions pipeline.",
   "main": "server.js",
   "scripts": {
-  "test": "npx jest --forceExit"
-},
+    "test": "npx jest --forceExit"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anime1102/my-first-devops-project.git"
+    "url": "git+https://github.com/Animesh-108/web-app-GitAction.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Anime1102/my-first-devops-project/issues"
+    "url": "https://github.com/Animesh-108/web-app-GitAction/issues"
   },
-  "homepage": "https://github.com/Anime1102/my-first-devops-project#readme"
+  "homepage": "https://github.com/Animesh-108/web-app-GitAction#readme"
 }

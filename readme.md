@@ -83,8 +83,6 @@ The workflow lowercases the repository owner before tagging, because GHCR reject
 
 ## Known issues
 
-- **The workflow does not currently fire.** `docker-build.yml` triggers on `push` to `master`, but this repository's default branch is `main`, so pushes match no trigger. Fix by changing the branch filter to `[ "main" ]`.
-- **`package.json` metadata points at a different repository** (`Anime1102/my-first-devops-project`) in its `repository`, `bugs`, and `homepage` fields.
 - The image is published only as `:latest`, so deployments cannot be pinned to an immutable tag. Tagging with `${{ github.sha }}` alongside `latest` would make rollbacks possible.
 
 ---
